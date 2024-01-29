@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wgth,FILL,GRAD@48,500.1.0">
+</head>
+<body>
+    <h1>Weather API</h1>
+    <div class="container">
+        <div class="weatherinput">
+            <h3>Enter City name:</h3>
+            <input type="text" placeholder="Eg: Pollachi, Coimbatore,Chennai" id="city">
+            <button class="btn" id="searchbtn" onclick="searchweather()">Search</button>
+            <div class="line"></div>
+            <button class="btn" id="locationbtn" onclick="getuserloc()">use current location</button>
+        </div>
+    </div>
+    <div class="weatherdata">
+        <div class="currentweather">
+            <div class="details">
+                <h2 id="name">City Name</h2>
+                <h4 id="temp">temp</h4>
+                <h4 id="wind"> wind</h4>
+                <h4 id="humid">Humidity</h4>
+            </div>
+            <div class="imgrep">
+                <img src="icons8-partly-cloudy-day-96.png" alt="" id="icon">
+                
+                <h4 id="description">
+                     climate details
+                </h4>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
