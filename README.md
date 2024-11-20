@@ -6,4 +6,5 @@ Take a look and give it a TRY!!!!!!!!!!!
 
 preview:
 
-![weather api image](https://github.com/user-attachments/assets/70573227-231a-40d6-9502-1150d1fc1ab6)
+![weather app image](https://github.com/user-attachments/assets/37455240-379f-4b43-b0f8-f14a84abef33)
+
